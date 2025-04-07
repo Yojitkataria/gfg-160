@@ -1,2 +1,45 @@
-# gfg-160
-🚀 My solutions to the GeeksforGeeks “GFG -160" Challenge 
+# 🌟 GFG-160 Challenge
+
+🚀 My solutions to the GeeksforGeeks **"GFG - 160" Challenge**  
+📚 Categorized by topics and days
+
+---
+
+## 📂 Topics Covered
+
+- Arrays
+---
+
+## 📅 Daily Questions
+
+### 🔹 Day 1 - Arrays
+- ✔️ Second Largest Element
+- ✔️ Move All Zeroes to End
+- ✔️ Reverse an Array
+
+### 🔹 Day 2 - Arrays
+- ✔️ Rotate Array 🔄
+- ✔️ Next Permutation 🔢
+
+### 🔹 Day 3 - Arrays
+- ✔️ Majority Element II 🗳️
+
+### 🔹 Day 4 - Arrays
+- ✔️ Best Time to Buy and Sell Stock (One Transaction) 📈
+- ✔️ Stock Buy and Sell - II 💹
+
+### 🔹 Day 5 - Arrays
+- ✔️ Minimize the Heights II 🏔️
+---
+
+
+
+## 📌 How to Use
+
+Each day is a folder under its topic. Inside, you’ll find `.cpp` or `.java` files with properly commented solutions.
+
+---
+
+## ⭐ Show your support!
+
+If you like this repository or are on the same challenge, feel free to fork or star ⭐
