@@ -32,6 +32,9 @@
 - ✔️ Minimize the Heights II 🏔️
 ---
 
+### 🔹 Day 6 - Arrays
+- ✔️Kadane's Algorithm
+---
 
 
 ## 📌 How to Use
