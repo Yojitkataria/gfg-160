@@ -1,0 +1,31 @@
+class Solution {
+  public:
+    // Function to find maximum product subarray
+    int maxProduct(vector<int> &arr) {
+        // Your Code Here
+        
+        int n = arr.size();
+        // we need to handle neg :( 
+        
+        int maxHere = arr[0];
+        int minHere = arr[0];
+        int max_So_Far = arr[0];
+        
+        for(int i = 1 ; i< n ; i++){
+            
+            if(arr[i] < 0){
+                swap(maxHere,minHere);
+            }
+            
+            //now check for 0 and neg numbers and store karenge neg ko bhi and check it
+            
+            maxHere = max(arr[i] , arr[i] * maxHere);
+            
+            minHere = min(arr[i] , arr[i] * minHere);
+            
+            max_So_Far = max(maxHere,max_So_Far);
+        }
+        return max_So_Far;
+        
+    }
+};
