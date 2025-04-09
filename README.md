@@ -35,6 +35,10 @@
 ### 🔹 Day 6 - Arrays
 - ✔️Kadane's Algorithm
 
+### 🔹 Day 7 - Arrays
+- ✔️Maximum Product Subarray
+
+
 
 ## 📌 How to Use
 
