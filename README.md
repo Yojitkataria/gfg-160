@@ -38,7 +38,7 @@
 ### 🔹 Day 7 - Arrays
 - ✔️Maximum Product Subarray
 
-### 🔹 Day 7 - Arrays
+### 🔹 Day 8 - Arrays
 - ✔️Max Circular Subarray Sum
 
 
