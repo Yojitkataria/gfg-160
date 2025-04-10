@@ -43,13 +43,6 @@
 
 
 
-
-## 📌 How to Use
-
-Each day is a folder under its topic. Inside, you’ll find `.cpp` or `.java` files with properly commented solutions.
-
----
-
 ## ⭐ Show your support!
 
 If you like this repository or are on the same challenge, feel free to fork or star ⭐
