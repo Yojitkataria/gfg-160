@@ -1,0 +1,20 @@
+class Solution {
+  public:
+    // Function to find the smallest positive number missing from the array.
+    int missingNumber(vector<int> &arr) {
+        // Your code here
+        unordered_set<int>s;
+        for(int num:arr){
+            if(num>0){
+                s.insert(num);
+            }
+        }
+        
+        int missing = 1;
+        while(s.find(missing) != s.end()){
+            missing++;
+        }
+        return missing;
+      
+    }
+};
