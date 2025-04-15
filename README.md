@@ -9,6 +9,8 @@
 
 - Arrays
 ---
+- String
+---
 
 ## 📅 Daily Questions
 
