@@ -1,0 +1,28 @@
+class Solution {
+  public:
+    int peakElement(vector<int> &arr) {
+        // Your code here
+        int n = arr.size();
+        int low = 0;
+        int high = arr.size() -1 ;
+        
+        while(low<=high){
+         int mid = low+(high-low)/2;
+         
+         bool leftpart = (mid==0||arr[mid] > arr[mid-1]);
+         bool rightpart = (mid == n-1 || arr[mid] > arr[mid+1]);
+         
+         if(leftpart && rightpart){
+             return mid;
+         }
+         else if(mid<n-1 && arr[mid]<arr[mid+1]){
+             low =  mid+1;
+         }
+         else{
+             high =mid-1;
+         }
+       
+    }
+    return -1;
+    }
+};
