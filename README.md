@@ -8,7 +8,7 @@
 ## 📂 Topics Covered
 
 - Arrays
----
+--
 - String
 ---
 
